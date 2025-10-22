@@ -1,0 +1,42 @@
+ body {background:#FFB3EA;}
+ h1{color:#752363;}
+ h2{color:#752363;}
+ li{color:#FFE6F9;}
+
+h1 {
+      font-family: "Playfair Display", serif;
+      font-weight: 700; /* bold */
+      font-style: italic; /* italic */
+      font-size: 42px;
+      color: #752363; /* gris oscuro elegante */
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.2); /* sombrita suave */
+      letter-spacing: 1px;
+      text-align:center;
+      text-decoration: underline;
+      
+    }
+
+
+    li {
+  font-family: "Great Vibes";
+  font-weight: bold;
+  font-style: italic;
+  font-size:32px;
+
+  
+}
+
+h2 {
+  font-family: "Great Vibes";
+  font-weight: bold;
+  font-style: italic;
+  font-size:38px;
+  text-align:center;
+  text-decoration: underline;
+
+  
+}
+
+
+h1 
+
