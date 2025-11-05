@@ -1,19 +1,19 @@
- body {background:#FFB3EA;}
- h1{color:#752363;}
- h2{color:#752363;}
- li{color:#FFE6F9;}
+body {background:#78B36F;}
+ h1{color:#black;}
+ h2{color:#black;}
+ li{color:#black;}
 
 h1 {
       font-family: "Playfair Display", serif;
       font-weight: 700; /* bold */
       font-style: italic; /* italic */
-      font-size: 42px;
-      color: #752363; /* gris oscuro elegante */
+      font-size: 32px;
+      color: #black; /* gris oscuro elegante */
       text-shadow: 1px 1px 3px rgba(0,0,0,0.2); /* sombrita suave */
       letter-spacing: 1px;
       text-align:center;
       text-decoration: underline;
-      
+
     }
 
 
@@ -21,22 +21,48 @@ h1 {
   font-family: "Great Vibes";
   font-weight: bold;
   font-style: italic;
-  font-size:32px;
+  font-size:28px;
 
-  
+
 }
 
 h2 {
   font-family: "Great Vibes";
   font-weight: bold;
   font-style: italic;
-  font-size:38px;
+  font-size:30px;
   text-align:center;
   text-decoration: underline;
 
-  
+
+}
+
+.whatsapp-container {
+  position: fixed;
+  bottom: 20px;   
+  right: 20px;
+  z-index: 100;
+}
+
+.whatsapp-float {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.whatsapp-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #25d366; /* color verde WhatsApp */
+  padding: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.whatsapp-icon:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
 }
 
 
-h1 
-
+h1
