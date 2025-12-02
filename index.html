@@ -1,96 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
 <head>
     <meta charset="utf-8">
-    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bizcochuelo Casero</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Great+Vibes&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Tu CSS -->
     <link rel="stylesheet" href="./css/estilos.css">
+</head>
 
-  </head>
-  <body>
+<body class="light">
 
-    <header>
-      <h1>Bizcochuelo esponjoso casero</h1>
-    </header>
+<!-- HEADER -->
+<header class="d-flex justify-content-between align-items-center p-3">
+    <h1 class="m-0">Bizcochuelo esponjoso casero</h1>
 
-    <br>
-<br>
-<h3>Más recetas.</h3>
-    <nav>
-    <a href="https://www.paulinacocina.net/bizcochuelo-marmolado/28289"target="_blank">Bizcochuelo marmolado.</a>
-<a href="https://cocinerosargentinos.com/postres/bizcochuelo-de-chocolate"target="_blank">Bizcochuelo de chocolate.</a>
-<a href="https://www.paulinacocina.net/bizcocho-de-naranja/30446"target="_blank">Bizcochuelo de naranja.</a>
-<a href="https://cookpad.com/ar/recetas/16169113"target="_blank">Bizcochuelo de banana.</a>
-    </nav>
+    <div class="d-flex gap-2">
+        <button id="darkModeBtn" class="btn btn-dark">Modo Oscuro</button>
+        <button id="infoBtn" class="btn btn-primary">Webmaster</button>
+    </div>
+</header>
 
-    <br>
-<br>
+<br><br>
 
+<h3 class="text-center">Más recetas.</h3>
+<nav class="d-flex flex-wrap gap-3 justify-content-center">
+    <a href="https://www.paulinacocina.net/bizcochuelo-marmolado/28289" target="_blank">Bizcochuelo marmolado</a>
+    <a href="https://cocinerosargentinos.com/postres/bizcochuelo-de-chocolate" target="_blank">Bizcochuelo de chocolate</a>
+    <a href="https://www.paulinacocina.net/bizcocho-de-naranja/30446" target="_blank">Bizcochuelo de naranja</a>
+    <a href="https://cookpad.com/ar/recetas/16169113" target="_blank">Bizcochuelo de banana</a>
+</nav>
 
-    <img src="https://www.clarin.com/img/2020/06/26/SbWjIlvtu_720x0__1.jpg" alt="">
+<br><br>
 
-<section>
-  <h2>Ingredientes.</h2>
+<img src="https://www.clarin.com/img/2020/06/26/SbWjIlvtu_720x0__1.jpg" alt="" width="100%" class="img-fluid rounded">
 
-  <ul>
-    <li> 1kg Harina Leudante</li>
-    <li>1 Taza de leche</li>
-    <li>1 Taza de azúcar</li>
-    <li>Media taza de aceite</li>
-    <li>2 Huevos</li>
-    <li>Esecencia de vainilla</li>
-    <li>Ralladura de limón o naranja (opcional)</li>
+<!-- SECCIÓN INGREDIENTES -->
+<section class="container my-4">
+    <h2>Ingredientes</h2>
+    <ul>
+        <li>1kg Harina Leudante</li>
+        <li>1 Taza de leche</li>
+        <li>1 Taza de azúcar</li>
+        <li>Media taza de aceite</li>
+        <li>2 Huevos</li>
+        <li>Esencia de vainilla</li>
+        <li>Ralladura de limón o naranja (opcional)</li>
+    </ul>
 
-
-  </ul>
-  <br>
-  <h2>Preparación</h2>
-
-  <ol>
-  <li>Batir los huevos hasta generar burbujas. Luego agregar la azúcar y seguir batiendo. </li>
-  <li>Agregar la leche, mezclar, añadir el aceite y revolver.</li>
-  <li>Agregar lentamente la harina leudante y batir.</li>
-  <li>Una vez hecha la masa homogénea agregar esencia de vainilla y ralladura de limón, volver a revolver.</li>
-  <li>En un molde enmantecar y harinar, luego colocar la mezcla y llevar al horno entre 30 y 60 minutos (revisar cada tanto que no se queme). Y listo, ya tenés tu bizcochuelo para disfrutar con los mates.</li>
-  </ol>
+    <h2 class="mt-4">Preparación</h2>
+    <ol>
+        <li>Batir los huevos hasta generar burbujas y agregar la azúcar.</li>
+        <li>Agregar la leche, mezclar, añadir el aceite y revolver.</li>
+        <li>Agregar lentamente la harina leudante y mezclar.</li>
+        <li>Agregar esencia de vainilla y ralladura. Mezclar.</li>
+        <li>Enmantecar y enharinar un molde. Hornear 30–60 minutos.</li>
+    </ol>
 </section>
 
-    <br>
+<section class="container my-5">
+    <img src="https://imag.bonviveur.com/interior-del-bizcochuelo-casero.jpg" class="img-fluid rounded mb-4" alt="">
 
-<section>
-  <img src="https://imag.bonviveur.com/interior-del-bizcochuelo-casero.jpg" alt="">
+    <div class="d-flex flex-wrap gap-4 justify-content-center">
 
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/yb1XQukPDjQ?si=g4QcCQHxS9yT41rM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <!-- YOUTUBE -->
+        <iframe width="350" height="200"
+                src="https://www.youtube.com/embed/yb1XQukPDjQ?si=g4QcCQHxS9yT41rM"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+        </iframe>
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52544.22102070332!2d-58.458102578320286!3d-34.60381219999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccac42b137c85%3A0x4fb14955717b3b42!2sConfiter%C3%ADa%20La%20Pasta%20Frola!5e0!3m2!1ses-419!2sar!4v1760560363906!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <!-- MAPA -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52544.22102070332!2d-58.458102578320286!3d-34.60381219999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccac42b137c85%3A0x4fb14955717b3b42!2sConfiter%C3%ADa%20La%20Pasta%20Frola!5e0!3m2!1ses-419!2sar!4v1760560363906!5m2!1ses-419!2sar"
+                width="350" height="200" style="border:0;" loading="lazy">
+        </iframe>
 
 
+
+    </div>
 </section>
-<br>
-<br>
 
+<!-- WHATSAPP -->
 <div class="whatsapp-container">
-  <a href="https://wa.me/5491139009518?text=¡Hola!%20Vi%20tu%20página%20web%20y%20quiero%20más%20info."
-     target="_blank" class="whatsapp-float">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
-         alt="WhatsApp" class="whatsapp-icon">
-  </a>
+    <a href="https://wa.me/5491139009518?text=¡Hola!%20Vi%20tu%20página%20web%20y%20quiero%20más%20info."
+       target="_blank" class="whatsapp-float">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+             alt="WhatsApp" class="whatsapp-icon">
+    </a>
 </div>
 
+<br><br>
 
+<!-- FOOTER -->
+<footer class="d-flex flex-column justify-content-center align-items-center p-4">
+    <p>Seguinos en nuestras redes:</p>
 
-<br>
-<footer>
-  <p>Seguinos en nuestras redes:</p>
-  <a href="https://www.instagram.com"target="_blank"><img src="./imagenes/insta.jpg" alt="instagram"></a>
-
-  <a href="https://www.tiktok.com" target="_blank">
-  <img src="./imagenes/tiktok.jpg" alt="tiktok">
-  </a>
-  <a href="https://www.youtube.com" target="_blank">
-    <img src="./imagenes/youtube.jpg" alt="youtube">
-  </a>
+    <div class="fotosuwu d-flex gap-3">
+        <a href="https://www.instagram.com" target="_blank">
+            <img src="./imagenes/insta.jpg" alt="instagram" width="50">
+        </a>
+        <a href="https://www.tiktok.com" target="_blank">
+            <img src="./imagenes/tiktok.jpg" alt="tiktok" width="50">
+        </a>
+        <a href="https://www.youtube.com" target="_blank">
+            <img src="./imagenes/youtube.jpg" alt="youtube" width="50">
+        </a>
+    </div>
 </footer>
 
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
+<!-- JS FUNCIONES -->
+<script>
+document.getElementById("darkModeBtn").addEventListener("click", () => {
+    document.body.classList.toggle("dark");
+});
 
-  </body>
-</html>
+document.getElementById("infoBtn").addEventListener("click", () => {
+    alert("Webmaster: Sere\nProyecto 2025\nCiudad: José C. Paz");
+});
+</script>
+
+</body>
 </html>
